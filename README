@@ -1,0 +1,15 @@
+mp3_embedder: Don-Duong Quach (c) 2009
+
+requires: haxe and neko http://www.haxe.org
+
+run: "haxe compile.hxml" to build the embed tool which stores an mp3 into a swf usable
+by Actionscript 3 for dynamic loading of an embedded Sound instance.
+
+embed relies on swfmill with mp3 support here: http://github.com/mental/swfmill/tree/master
+
+the embed tool produces a swf from an input mp3
+
+You can see a sample of how to use the swf in the sample folder.
+run: "haxe compile.hxml"
+
+Tested on Ubuntu 8.10

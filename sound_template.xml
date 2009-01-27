@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<movie version="10" framerate="10" height="300" width="400">
+    <library>
+        <clip id="Mp3" import="#mp3#"/>
+    </library>
+    <frame>
+        <place id="Mp3"/>
+    </frame>
+</movie>
