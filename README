@@ -10,6 +10,11 @@ embed relies on swfmill with mp3 support here: http://github.com/mental/swfmill/
 the embed tool produces a swf from an input mp3
 
 You can see a sample of how to use the swf in the sample folder.
-run: "haxe compile.hxml"
+run: 
+cd sample
+../embed 1.mp3
+haxe compile.hxml
+
+open dynload.swf which dynamically loads 1.swf
 
 Tested on Ubuntu 8.10
